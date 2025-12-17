@@ -47,10 +47,35 @@ Directive ..... Systems > Manual Work
 
 ## 📈 GitHub
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=jpzhum-max&show_icons=true&theme=github_dark&hide_border=true" />
-  <img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=jpzhum-max&theme=github-dark-blue&hide_border=true" />
+  <img height="160"
+       src="https://github-readme-stats.vercel.app/api
+       ?username=jpzhum-max
+       &show_icons=true
+       &hide_border=true
+       &bg_color=0D1117
+       &title_color=6AFF9C
+       &icon_color=6AFF9C
+       &text_color=C9D1D9
+       &ring_color=6AFF9C" />
+
+  <img height="160"
+       src="https://github-readme-streak-stats.herokuapp.com/
+       ?user=jpzhum-max
+       &hide_border=true
+       &background=0D1117
+       &stroke=6AFF9C
+       &ring=6AFF9C
+       &fire=6AFF9C
+       &currStreakLabel=6AFF9C
+       &sideLabels=6AFF9C
+       &dates=8B949E
+       &sideNums=C9D1D9" />
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:111827&height=2&section=footer" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=jpzhum-max&show_icons=true&hide_border=true&bg_color=0D1117&title_color=6AFF9C&icon_color=6AFF9C&text_color=C9D1D9&ring_color=6AFF9C" />
+
+  <img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=jpzhum-max&hide_border=true&background=0D1117&stroke=6AFF9C&ring=6AFF9C&fire=6AFF9C&currStreakLabel=6AFF9C&sideLabels=6AFF9C&dates=8B949E&sideNums=C9D1D9" />
 </p>
+
+
