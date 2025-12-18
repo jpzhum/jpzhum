@@ -3,7 +3,7 @@
      hub
  -->
 <p align="center">
-  <img src="https://github.com/jpzhum-max/jpzhum-max/blob/main/assets/hud.svg?raw=1" alt="HUD"/>
+  <img src="https://github.com/jpzhum/jpzhum/blob/main/assets/hud.svg?raw=1" alt="HUD"/>
 </p>
 
 
@@ -49,7 +49,7 @@ Directive ..... Systems > Manual Work
 <p align="center">
   <img height="160"
        src="https://github-readme-stats.vercel.app/api
-       ?username=jpzhum-max
+       ?username=jpzhum
        &show_icons=true
        &hide_border=true
        &bg_color=0D1117
@@ -60,7 +60,7 @@ Directive ..... Systems > Manual Work
 
   <img height="160"
        src="https://github-readme-streak-stats.herokuapp.com/
-       ?user=jpzhum-max
+       ?user=jpzhum
        &hide_border=true
        &background=0D1117
        &stroke=6AFF9C
