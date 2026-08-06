@@ -49,8 +49,9 @@ WORKFLOW     Git, branches, code review, and Pull Requests
 
 | Project | What it solves | Core technologies |
 |---|---|---|
-| **[DevTrack](https://github.com/jpzhum/devtrack)** | Organizes projects, tasks, and developer growth in a collaborative web platform. I contribute through technical mentoring, review, and project organization. | React, TypeScript, Vite, Git workflow |
+| **[Elysium System](https://github.com/jpzhum/elysium-system)** | Production-oriented Discord automation with onboarding and role workflows, institutional publishing, presentations, expeditions, temporary voice rooms, auditing, and operational health monitoring. | Python, discord.py, aiohttp, Render, unittest |
 | **[Nexa Adherence](https://github.com/jpzhum/nexa_adherence)** | Imports and consolidates operational data into a desktop workflow for analysis, filtering, reporting, and controlled exports. | Python, Pandas, PyQt5, SQLite, pytest, CI |
+| **[DevTrack](https://github.com/jpzhum/devtrack)** | Collaborative web platform currently in development by Kel. I support the project through organization, Git workflow, code review, and technical mentoring. | React, TypeScript, Vite, Git workflow |
 
 > Public projects are selected for relevance and verifiability. Internal work is described only by purpose and impact, without exposing proprietary information.
 
@@ -67,10 +68,10 @@ Working with process automation, data analysis, and operational tools in the sug
 ## `> CURRENT_OPERATION`
 
 ```text
-[ACTIVE]  Evolving DevTrack through collaborative development and mentoring
-[ACTIVE]  Maintaining a Discord community automation system in Python
-[BUILD]   Creating Python automations and data-oriented operational tools
-[LEARN]   Deepening React and TypeScript through practical projects
+[ACTIVE]  Maintaining Elysium System and its Discord automation workflows
+[ACTIVE]  Developing DevTrack collaboratively through organization and mentoring
+[BUILD]   Creating automation and data tools with Python
+[LEARN]   Advancing React and TypeScript through practical projects
 [IMPROVE] Architecture, testing, documentation, and maintainability
 ```
 
