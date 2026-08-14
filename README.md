@@ -24,12 +24,12 @@ WORKFLOW     Git, testing, code review, and maintainable architecture
 
 | Priority | Project | What it solves | Engineering evidence |
 |---:|---|---|---|
-| **01** | **NexaBook** · `repository publication pending` | Real-world book catalog workflow that searches by ISBN or title, enriches incomplete metadata, validates records, and produces controlled CSV/XLSX exports for Bling. | Python, FastAPI, SQLite, Google Books, Open Library, OpenAI API, Pandas, pytest, Render |
+| **01** | **[NexaBook](https://github.com/jpzhum/NexaBook)** | Enriches bibliographic metadata by ISBN through deterministic APIs and an optional validated OpenAI fallback, persists normalized records to SQLite, and exports generic CSV/XLSX datasets. | Python, FastAPI, API Integration, LLM Integration, Data Processing |
 | **02** | **[Nexa Adherence](https://github.com/jpzhum/nexa_adherence)** | Consolidates recurring spreadsheet and CSV inputs into a local workflow for validation, adherence analysis, dashboards, reports, and controlled exports. | Python, Pandas, PyQt5, SQLite, pytest, GitHub Actions |
 | **03** | **[Elysium System](https://github.com/jpzhum/elysium-system)** | Automates Discord onboarding, publishing, presentations, expeditions, temporary voice rooms, auditing, and operational health checks through a modular application. | Python, discord.py, aiohttp, unittest, Render |
 | **04** | **[DevTrack](https://github.com/jpzhum/devtrack)** | Early-stage collaborative learning project for organizing development work. I contribute repository organization, Issues, Git workflow, review, planning support, and technical mentoring; Kel owns her implementations and code. | React, TypeScript, Vite, Issues, Pull Requests, code review |
 
-> NexaBook queries structured book-data providers first. When metadata remains incomplete and the optional fallback is enabled, its OpenAI pipeline can perform constrained enrichment, records field sources and confidence, rejects unverified ISBN evidence, and flags uncertain results for human review.
+> NexaBook follows an ISBN → Google Books → Open Library → optional OpenAI fallback pipeline. The LLM is called only when enabled and the deterministic providers leave the record incomplete; its JSON response is validated and can fill missing fields without replacing metadata already collected.
 
 ## `> CORE_STACK`
 
@@ -42,8 +42,8 @@ WORKFLOW     Git, testing, code review, and maintainable architecture
 **AI & Integrations**
 
 ![OpenAI API](https://img.shields.io/badge/OpenAI_API-0D1117?style=flat-square&logo=openai&logoColor=6AFF9C)
-![External APIs](https://img.shields.io/badge/External_API_Orchestration-0D1117?style=flat-square&logo=json&logoColor=6AFF9C)
-![Data Enrichment](https://img.shields.io/badge/Structured_Data_Enrichment-0D1117?style=flat-square&logo=databricks&logoColor=6AFF9C)
+![Bibliographic APIs](https://img.shields.io/badge/Bibliographic_API_Integration-0D1117?style=flat-square&logo=json&logoColor=6AFF9C)
+![JSON Validation](https://img.shields.io/badge/JSON_Validation-0D1117?style=flat-square&logo=pydantic&logoColor=6AFF9C)
 
 **Data**
 
@@ -73,8 +73,8 @@ Working with process automation, data analysis, and internal tools in the sugar-
 ## `> CURRENT_OPERATION`
 
 ```text
-[ACTIVE]  Evolving NexaBook's catalog, enrichment, validation, and export flows
-[ACTIVE]  Maintaining Elysium System and its Discord automation workflows
+[PROJECT] NexaBook bibliographic enrichment, validation, persistence, and exports
+[PROJECT] Elysium System and its Discord automation workflows
 [BUILD]   Creating Python automation, data, and internal-system solutions
 [LEARN]   Advancing React and TypeScript through collaborative development
 [IMPROVE] Architecture, tests, documentation, observability, and maintainability
@@ -86,7 +86,7 @@ Working with process automation, data analysis, and internal tools in the sugar-
 - Automate repetitive work when the process can become safer and more traceable.
 - Separate domain rules, services, persistence, and interfaces when the system warrants it.
 - Use tests, logs, validation, documentation, and focused Git changes to make behavior reviewable.
-- Use AI for bounded engineering tasks and product integrations, with explicit constraints, source checks, human review, and responsibility for the final result.
+- Use AI for bounded engineering tasks and product integrations, with explicit constraints, validation, and responsibility for the final result.
 - Protect proprietary information while documenting transferable engineering decisions.
 
 ## `> CONNECTION`
