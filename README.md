@@ -10,7 +10,7 @@
 
 ## `> SYSTEM_PROFILE`
 
-I am a **Python Automation & AI Integration Developer** building maintainable systems for real operational work. I use Python, APIs, data pipelines, and focused AI integrations to replace repetitive processes with traceable software, from internal tools to deployed backend applications.
+I am a **Python Automation & AI Integration Developer** building maintainable systems for real operational work. I use Python, APIs, data pipelines, and focused AI integrations to replace repetitive processes with traceable software, from internal tools to backend applications.
 
 ```text
 PRIMARY      Python automation and backend systems
@@ -29,7 +29,7 @@ WORKFLOW     Git, testing, code review, and maintainable architecture
 | **03** | **[Elysium System](https://github.com/jpzhum/elysium-system)** | Automates Discord onboarding, publishing, presentations, expeditions, temporary voice rooms, auditing, and operational health checks through a modular application. | Python, discord.py, aiohttp, unittest, Render |
 | **04** | **[DevTrack](https://github.com/jpzhum/devtrack)** | Early-stage collaborative learning project for organizing development work. I contribute repository organization, Issues, Git workflow, review, planning support, and technical mentoring; Kel owns her implementations and code. | React, TypeScript, Vite, Issues, Pull Requests, code review |
 
-> NexaBook follows an ISBN → Google Books → Open Library → optional OpenAI fallback pipeline. The LLM is called only when enabled and the deterministic providers leave the record incomplete; its JSON response is validated and can fill missing fields without replacing metadata already collected.
+> NexaBook follows an ISBN → Google Books → Open Library → optional OpenAI fallback pipeline. The fallback requires both the feature flag and an API key, and is reached only when deterministic providers leave the record below its completeness threshold; its JSON response is validated locally with Pydantic and can fill missing fields without replacing metadata already collected.
 
 ## `> CORE_STACK`
 
@@ -48,7 +48,7 @@ WORKFLOW     Git, testing, code review, and maintainable architecture
 **Data**
 
 ![Pandas](https://img.shields.io/badge/Pandas-0D1117?style=flat-square&logo=pandas&logoColor=6AFF9C)
-![SQLite](https://img.shields.io/badge/SQLite-0D1117?style=flat-square&logo=sqlite&logoColor=6AFF9C)
+![SQL / SQLite](https://img.shields.io/badge/SQL_%2F_SQLite-0D1117?style=flat-square&logo=sqlite&logoColor=6AFF9C)
 ![Excel](https://img.shields.io/badge/Excel-0D1117?style=flat-square&logo=microsoftexcel&logoColor=6AFF9C)
 
 **Web & Collaboration**
